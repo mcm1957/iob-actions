@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: 18
 
-      - run: npm  dist-tag list iobroker.webui
-      - run: npm --//registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}} dist-tag add iobroker.webui@0.20.7 latest
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+###      - run: npm  dist-tag list iobroker.webui
+###      - run: npm --//registry.npmjs.org/:_authToken=${{secrets.NPM_TOKEN}} dist-tag add iobroker.webui@0.20.7 latest
+###        env:
+###          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
